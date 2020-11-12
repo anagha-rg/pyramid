@@ -1,0 +1,13 @@
+blocks = int(input("Enter the number of blocks: "))
+current_block_number=0 
+height=0 
+
+while current_block_number in range (blocks): 
+    #increment height 
+    height+=1 
+    #increase the block count by 1 
+    current_block_number+=1 
+    #get the balance blocks to work with 
+    blocks-=current_block_number 
+
+print("The height of the pyramid:", height)
